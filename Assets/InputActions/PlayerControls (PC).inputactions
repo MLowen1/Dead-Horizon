@@ -1,0 +1,322 @@
+{
+    "name": "PlayerControls (PC)",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "1c805767-6d72-4a9d-89f8-f3db192f2ed2",
+            "actions": [
+                {
+                    "name": "Movement Action (PC)",
+                    "type": "Value",
+                    "id": "13560c43-f140-4f39-85b3-f1542673f731",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Hold (PC)",
+                    "type": "Button",
+                    "id": "d12d9ada-c1be-44f4-8f85-47642c5fa840",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Throw (PC)",
+                    "type": "Button",
+                    "id": "e23db91a-2a1d-41a7-bc3c-acf35dabe228",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Drop (PC)",
+                    "type": "Button",
+                    "id": "7e91a878-eac4-411c-bf1d-1507c280d2cb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Extract (PC)",
+                    "type": "Button",
+                    "id": "b9a93aca-5b93-458a-a5d3-7bf18d44d3a3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Exit (PC)",
+                    "type": "Button",
+                    "id": "fe8cafe3-51d0-4728-a6af-e1c245dbf5cd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Movement Action (Arcade Machine)",
+                    "type": "Button",
+                    "id": "71ed3a53-714a-457a-a43a-cddd7818a463",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Hold (Arcade Machine)",
+                    "type": "Button",
+                    "id": "5980e08d-e666-4449-9ff5-039b20fc65ad",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Throw (Arcade Machine)",
+                    "type": "Button",
+                    "id": "733d79b6-c4d3-4f77-9596-8aa9859f65a8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Drop (Arcade Machine)",
+                    "type": "Button",
+                    "id": "9b95b03f-c17a-4e92-b0d7-b1cd80ed101a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Extract (Arcade Machine)",
+                    "type": "Button",
+                    "id": "f0f73597-5741-41e7-ac97-a3f4d4703d54",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "50a37810-33b9-4077-bbdb-a5915fda0222",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement Action (PC)",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "fa769698-221a-4614-ac5b-7f6e4635e54d",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement Action (PC)",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "ec12f81c-91fb-4268-a0e6-3c3dd021f3fc",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement Action (PC)",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "515cb952-8320-49be-9058-7404ca862834",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement Action (PC)",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "b7d9bba4-c1a5-43ab-aa0b-b8d9a959ce49",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement Action (PC)",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "2D Vector",
+                    "id": "84725216-560e-4d61-b853-30f10d635a66",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement Action (Arcade Machine)",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "f1264530-a261-47b0-a837-86d27a0f560f",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement Action (Arcade Machine)",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "9cd117c6-4093-4b1e-9d02-b2544ac65242",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement Action (Arcade Machine)",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "92ef0c84-5e24-488f-9b32-f1d29f92ad36",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement Action (Arcade Machine)",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "3a1f4b10-b65a-45f2-b9b6-80647fa74013",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Movement Action (Arcade Machine)",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "02514eff-d362-44aa-bdce-b9e620f445a5",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Hold (Arcade Machine)",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8cf450de-5f6c-4d6e-b87c-d6494252069e",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Hold (PC)",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eeb39a2a-1fc4-42be-b675-722cfdc4a26a",
+                    "path": "<Keyboard>/period",
+                    "interactions": "SlowTap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Throw (PC)",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "bed48538-c4f8-4d8a-92d9-39c50877c47a",
+                    "path": "<Keyboard>/comma",
+                    "interactions": "SlowTap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Drop (PC)",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0b68789d-3d58-42cc-8377-5a9484fd47f3",
+                    "path": "<Keyboard>/k",
+                    "interactions": "SlowTap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Extract (PC)",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d540403f-d0c5-490e-9c8b-50762937fa61",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Throw (Arcade Machine)",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "961dbf46-c155-48ff-8e84-8534498fe41d",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Drop (Arcade Machine)",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0bcdae50-ef5d-4a6d-b223-37d33cec8e25",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Extract (Arcade Machine)",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "83db3615-796c-4ee5-baa1-b5fbb336bd2d",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "SlowTap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Exit (PC)",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
